@@ -1,0 +1,98 @@
+<section class="items">
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item1">Pizza 1</h4>
+            
+            <button onclick="togglePopup()">Add</a></button>
+            
+        </div> 
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id ="item2">Pizza 2</h4>
+            <button onclick="togglePopup()">Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item3">Pizza 3</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item4">Pizza 4</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item5">Pizza 5</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item6">Pizza 6</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item7">Pizza 7</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item8">Pizza 8</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item9">Pizza 9</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item10">Pizza 10</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item11">Pizza 11</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item12">Pizza 12</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item13">Pizza 13</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item14">Pizza 14</h4>
+            <button>Add to Basket</button>
+        </div>
+        <div class="item">
+            <img src="img/pizza.jpg" alt="pizza">
+            <h4 id="item15">Pizza 15</h4>
+            <button>Add to Basket</button>
+        </div>
+    </section>
+
+
+        for (let item of pizza){
+            output +=
+                <div class = "item">
+                    <img src = "${item.img}" alt = "${item.name}"></img>
+                    <h4 id ="${item.id}"> "${pizza.name}"</h4>
+                </div>
+        }
+        console.log("WWEW");
+        document.querySelector(".items").innerHTML = output;
+3
+
+
+            <h1 id="itemname">Title</h1>
+            <p> Lorem ipsum.gshjdhgjh dgfdkgjklg
+                gfjkgjdlkgjd
+                gdfkgldgj.
+            </p>
